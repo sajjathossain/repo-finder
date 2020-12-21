@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f4f4f4 !important;
+    position: initial;
+}
+
+body > div {
+    margin: 15px auto !important;
+}
+
+.navbar{
+    top: 0 !important;
+    z-index: 100;
+    position: sticky !important;
+    width: 100% !important;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2) !important;
+}
+
+.navbar-brand:hover {
+    color: orangered !important;
+
+}
+
+#inputField {
+    width: 100% !important;
+}
+
+#infos {
+    z-index: 50;
+}
+
+.userImage {
+    width: 100% !important;
+}
+
+.panel {
+    width: 100% !important;
+    border: 1px solid orangered !important;
+    border-radius: 4px;
+    padding: 10px 10px;
+}
+
+.imgAndButton {
+    margin: 25px 0 !important;
+    padding-left: 1.5vw !important;
+}
+
+.imgAndButton > * {
+    margin: 4px 2px;
+}
+
+.panelTop > * {
+    margin: 0 4px;
+}
+
+.myBadge {
+    padding: 8px !important;
+    margin: 2px !important;
+    font-size: 12px !important;
+}
+
+#latestRepos {
+    margin: 10px 0 !important;
+    padding: 5px 5px  !important;
+    
+}
+
+.well {
+    border: 2px solid rgba(255, 123, 0, 0.384);
+}
+
+.footer {
+    margin: 10px 0 !important;
+    padding: 0 40% !important;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+
+    a {
+        text-decoration: none !important;
+    }
+
+    a:hover {
+        text-decoration: none !important;
+        outline: none !important;
+        color: rgba(255, 68, 0, 0.575) !important;
+        font-weight: bold !important;
+    }
+
+    a:active {
+        text-decoration: none !important;
+    }
+}
