@@ -1,3 +1,3 @@
-<div text-align="center">Repo Finder</div>
+<h1 style="color: orangered; text-align: center">Repo Finder</h1>
 
-## [Click Here to view](https://silly-khorana-aa7093.netlify.app)
+<a href="https://silly-khorana-aa7093.netlify.app" style="text-align: center;">Click Here To View</a>
