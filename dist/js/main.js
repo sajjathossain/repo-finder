@@ -2,7 +2,6 @@ $(document).ready( () => {
     $('#submitForm').on('submit', (e) => {
         e.preventDefault();
         const userName = $('#inputField').val();
-        console.log(userName);
 
         $.ajax({
             url: `https://api.github.com/users/${userName}`,
@@ -36,7 +35,7 @@ $(document).ready( () => {
                                     <span class="badge badge-info myBadge">Stars: ${repo.stargazers_count}</span>
                                 </div>
                                 <div class="col-md-2">
-                                    <a class="btn btn-info" target="_blank" href="${repo.html_url}">View Repo</a>
+                                    <a class="btn btn-danger" target="_blank" href="${repo.html_url}">View Repo</a>
                                 </div>
                             </div>
                         </div>
