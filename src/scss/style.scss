@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: sans-serif;
     background-color: #f4f4f4 !important;
-    position: initial;
+    position: initial !important;
 }
 
 body > div {
@@ -11,6 +11,7 @@ body > div {
 }
 
 .navbar{
+    overflow: visible !important;
     top: 0 !important;
     z-index: 100;
     position: sticky !important;
@@ -19,8 +20,10 @@ body > div {
 }
 
 .navbar-img {
-    height: 40px !important;
-    width: 40px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100px !important;
+    width: 100px !important;
 }
 
 .navbar-brand {
@@ -52,7 +55,7 @@ body > div {
 
 .panel {
     width: 100% !important;
-    border: 1px solid orangered !important;
+    border: 2px solid orangered !important;
     border-radius: 4px;
     padding: 10px 10px;
 }
@@ -74,6 +77,11 @@ body > div {
     padding: 8px !important;
     margin: 2px !important;
     font-size: 12px !important;
+
+    &:hover {
+        cursor: pointer !important;
+        box-shadow: 2px -3px -3px rgba(0, 0, 0, 0.4) !important;
+    }
 }
 
 #latestRepos {
@@ -82,16 +90,26 @@ body > div {
     
 }
 
+
 .well {
-    border: 2px solid rgba(255, 123, 0, 0.384);
+    border: 2px solid orangered !important;
+    border-radius: 3px !important;
+
+    &:hover {
+        transition: .2s ease-in !important;
+        box-shadow: 2px 7px 7px rgba(0, 0, 0, 0.2),
+                    -5px -5px 3px rgba(129, 125, 125, 0.342),
+                     0 13px 13px rgba(0, 0, 0, 0.2);
+    }
 }
+
 
 .footer {
     margin: 10px 0 !important;
     padding: 0 40% !important;
     text-align: center;
-    position: fixed;
-    bottom: 0;
+    position: fixed !important;
+    bottom: 0 !important;
 
     a {
         text-decoration: none !important;

@@ -59,7 +59,7 @@ $(document).ready( () => {
                                 </div>    
                                 
                                 <div class="myLabels">
-                                    <span class="badge badge-primary myBadge">Public Repos: ${user.public_repos}</span>
+                                    <a href="#latestRepoText" class="badge badge-primary myBadge">Public Repos: ${user.public_repos}</a>
                                     <span class="badge badge-success myBadge">Public Gists: ${user.public_gists}</span>
                                     <span class="badge badge-info myBadge">Followers: ${user.followers}</span>
                                     <span class="badge badge-warning myBadge">Following: ${user.following}</span>
@@ -81,7 +81,7 @@ $(document).ready( () => {
             </div>
             
             <div id="latestRepos">
-                <h3 class="text-info font-weight-bold mt-2 mb-2">Latest Repos</h3>
+                <h3 class="text-info font-weight-bold mt-2 mb-2" id="latestRepoText">Latest Repos</h3>
                 <div id="latest"></div>
             </div>
             `);
